@@ -241,7 +241,7 @@ a img {
 
 #hiring {
     margin-top: 150px;
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 #hiring h1 {
@@ -249,7 +249,7 @@ a img {
     padding: 20px;
     border-top: rgb(0, 0, 0) 2px solid;
     border-bottom: rgb(0, 0, 0) 2px solid;
-    margin: 50px; 
+    margin: 50px 50px 100px 50px; 
 }
 
 .hiringbanner {
@@ -265,7 +265,7 @@ a img {
 }
 
 .hiringbanner h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     background-color: rgba(255, 255, 255, 0.5);
     padding: 50px;
 }
@@ -278,3 +278,84 @@ a img {
     text-align: center;
 }
 
+.join {
+    background-image: url(hiring-2.jpg);
+    min-height: 600px;
+    max-width: 1000px;
+    margin: 20px auto;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+button {
+    margin-top: 100px;
+    max-width: 300px;
+    background-color:rgb(187, 166, 166, .5);
+    border: 0px;
+}
+
+
+/*about*/
+
+#aboutanchor {
+    height: 10px;
+}
+
+#about h1 {
+    font-size: 3rem;
+    padding: 20px;
+    border-top: rgb(0, 0, 0) 2px solid;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    margin: 50px 50px 100px 50px; 
+}
+
+#about .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    
+}
+
+.boss {
+    min-height: 650px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  rgb(0, 0, 0) 2px solid;
+    margin: 20px;
+    padding: 10px 20px;
+}
+
+.boss h2 {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
+}
+
+.boss img {
+ max-width: 300px;
+ margin: 10px;
+}
+
+
+/*footer*/
+
+footer {
+    margin: 0;    
+    height: 80px; 
+    background-color:rgb(187, 166, 166);
+    width: 100%;
+    border-top: rgb(0, 0, 0) 2px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer h3, footer p {
+    padding: 10px;
+}
