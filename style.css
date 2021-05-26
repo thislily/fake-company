@@ -1,0 +1,280 @@
+/*font options: 
+font-family: 'Assistant', sans-serif; ( light 300, medium 500)
+font-family: 'Comfortaa', cursive; (logo)
+*/
+
+/* universal*/
+
+html {
+    font-family: 'Assistant', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+}
+
+body{
+    margin: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Comfortaa', cursive;
+}
+
+/*header*/
+
+.navbar {
+    position: fixed;
+    margin: 0;    
+    height: 50px; 
+    background-color:rgb(187, 166, 166);
+    width: 100%;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    font-size: 1.5rem;
+    color: black;
+    text-decoration: none;
+    padding: .5rem;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .navbar {
+        height: 80;
+    }
+
+}
+
+/*banner*/
+
+.topbanner {
+    top: 52px;
+    display: flex;
+    min-height: 800px;
+    background-image: url(banner.jpg);
+    background-size:cover;
+    justify-content: center;
+    border-bottom: rgb(0, 0, 0) 2px solid;   
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(255, 255, 255, 0.5);
+
+
+}
+
+.titles h1 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 7.5rem;
+   
+
+
+    
+}
+
+.titles h3 {
+    font-family: 'Comfortaa', cursive;
+    font-size: 2rem;
+    
+}
+
+
+@media only screen and (max-width: 910px) {
+
+    .titles h1{
+        font-size: 4rem;
+        max-width: 700px;
+    }
+
+    .titles h3 {
+        font-size: 2rem;
+        max-width: 700px;
+    }
+}
+/*social*/
+
+#social {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+a img {
+    max-height: 100px;
+}
+
+
+
+/*mission*/
+#missionanchor {
+    height: 10px;
+}
+
+#mission {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+#mission h1 {
+    font-size: 3rem;
+    padding: 20px;
+    border-top: rgb(0, 0, 0) 2px solid;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    margin: 50px;  
+    
+    
+}
+
+#mission .container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2px auto;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    max-width: 1200px;
+}
+
+
+
+.container img {
+    max-height: 600px;
+    margin: 20px;
+    
+}
+
+
+#img2, #img3 {
+    max-height: 285px;
+    margin: 20px 10px;
+
+}
+
+#bold1, #bold2, #bold3 {
+    max-width: 200px;
+    padding: 20px;
+    border: rgb(0, 0, 0) 2px solid;
+    margin: 20px;
+    
+}
+
+#text1, #text2, #text3 {
+    max-width: 500px;
+    min-width: 300px;
+    padding: 20px;
+    margin: 20px;
+    text-align: start;
+}
+
+
+/*branches*/
+
+#branchesanchor {
+    height: 10px;
+}
+
+#branches {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.locations h1 {
+    font-size: 3rem;
+    padding: 20px;
+    border-top: rgb(0, 0, 0) 2px solid;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    margin: 50px; 
+    
+}
+
+.locations .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 100px;
+    
+}
+
+.location {
+    max-height: ;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:  rgb(0, 0, 0) 2px solid;
+    margin: 20px;
+    padding: 10px 20px;
+
+}
+
+.location h2 {
+    padding: 5px 0px 0px 0px;
+    margin: 0px;
+}
+
+.location img {
+ max-width: 300px;
+ margin: 10px;
+}
+
+
+/*hiring*/
+
+
+#hiringanchor {
+    height: 10px;
+}
+
+#hiring {
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+#hiring h1 {
+    font-size: 3rem;
+    padding: 20px;
+    border-top: rgb(0, 0, 0) 2px solid;
+    border-bottom: rgb(0, 0, 0) 2px solid;
+    margin: 50px; 
+}
+
+.hiringbanner {
+    top: 52px;
+    display: flex;
+    max-height: 1200px;
+    background-image: url(hiringbanner.jpg);
+    background-size:cover;
+    justify-content: center;
+    align-items: center;
+    border-top: rgb(0, 0, 0) 2px solid;
+    border-bottom: rgb(0, 0, 0) 2px solid;   
+}
+
+.hiringbanner h3 {
+    font-size: 3rem;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 50px;
+}
+
+#hiring p {
+    max-width: 800px;
+    min-width: 300px;
+    padding: 20px;
+    margin: 20px auto;
+    text-align: center;
+}
+
