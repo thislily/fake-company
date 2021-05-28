@@ -47,6 +47,7 @@ h1, h2, h3, h4 {
     color: black;
     text-decoration: none;
     padding: .5rem 1rem;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 785px) {
@@ -253,6 +254,21 @@ a img {
         padding: 10px;
         margin: 25px;
     }
+
+    .container img {
+        width: 100%;
+        margin: 0%;
+    }
+
+    #img2, #img3 {
+        width: 45%;
+        margin: 0;
+        padding: 2px;
+    }
+
+    #text1, #text2, #text3 {
+        padding: 0%;
+    }
 }
 
 
@@ -447,6 +463,16 @@ button {
  margin: 10px;
 }
 
+@media only screen and (max-width: 785px) {
+
+    #about h1 {
+        font-size: 2rem;
+        padding: 10px;
+        margin: 25px;
+    }
+}
+
+
 
 /*footer*/
 
@@ -463,4 +489,10 @@ footer {
 
 footer h3, footer p {
     padding: 10px;
+}
+
+footer span {
+    font-family: 'Assistant', sans-serif; 
+    font-weight: 300;
+    font-size: 1.3rem;
 }
