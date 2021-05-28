@@ -141,7 +141,7 @@ h1, h2, h3, h4 {
 @media only screen and (max-width: 785px) {
  
     .topbanner {
-        min-height: 400px;
+        min-height: 700px;
     }
 
     .titles h1 {
