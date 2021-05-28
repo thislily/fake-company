@@ -245,6 +245,15 @@ a img {
     text-align: start;
 }
 
+@media only screen and (max-width: 785px) {
+
+    #mission h1 {
+        font-size: 2rem;
+        padding: 10px;
+        margin: 25px;
+    }
+}
+
 
 /*branches*/
 
@@ -253,7 +262,7 @@ a img {
 }
 
 #branches {
-    margin-top: 150px;
+    margin-top: 100px;
     margin-bottom: 150px;
 }
 
@@ -296,6 +305,15 @@ a img {
 .location img {
  max-width: 300px;
  margin: 10px;
+}
+
+@media only screen and (max-width: 785px) {
+
+    .locations h1 {
+        font-size: 2rem;
+        padding: 10px;
+        margin: 25px;
+    }
 }
 
 
@@ -362,6 +380,25 @@ button {
     background-color:rgb(187, 166, 166, .5);
     border: 0px;
 }
+
+@media only screen and (max-width: 785px) {
+
+    #hiring h1 {
+        font-size: 2rem;
+        padding: 10px;
+        margin: 25px;
+    }
+
+    .hiringbanner {
+        width: 100%;
+        margin-top: 25px;
+    }
+
+    .join {
+        width: 100%;
+    }
+}
+
 
 
 /*about*/
