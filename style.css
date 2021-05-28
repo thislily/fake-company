@@ -203,7 +203,6 @@ a img {
     border-bottom: rgb(0, 0, 0) 2px solid;
     margin: 50px;  
     
-    
 }
 
 #mission .container {
@@ -212,11 +211,14 @@ a img {
     margin: 2px auto;
     align-items: center;
     justify-content: center;
-    padding: 5%;
+    padding:  0 5%;
     max-width: 1200px;
 }
 
-
+#con2 {
+    margin-top: 0;
+    padding-top: 0;
+}
 
 .container img {
     max-height: 600px;
